@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Synthech — Conecte pessoas, empresas e experiências</title>
+  <link rel="icon" href="favicon.ico" type="image/x-icon" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="style.css"/>
+  <meta name="description" content="Synthech: tecnologia com propósito. Conheça o app IALLA e o dashboard para organizadores."/>
+</head>
+<body class="tema-bordas">
+  <!-- HEADER -->
+  <header class="site-header" data-elevate-on-scroll>
+    <div class="limite">
+      <a class="logo-link" href="#home" aria-label="Ir para início">
+        <img src="images/logo.jpeg" alt="Logo Synthech" height="44" class="logo"/>
+      </a>
+
+      <nav class="menu" aria-label="Principal">
+        <button id="btnMenu" class="menu-toggle" aria-expanded="false" aria-controls="menuLinks">
+          <span class="linha"></span><span class="linha"></span><span class="linha"></span>
+          <span class="sr-only">Abrir menu</span>
+        </button>
+        <div id="menuLinks" class="links">
+          <a href="#home">Home</a>
+          <a href="#quem-somos">Quem somos</a>
+          <a href="#produtos">Produtos</a>
+          <a href="#galeria">Galeria</a>
+          <a href="#contato">Contato</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main id="home" class="conteudo">
+    <!-- HERO -->
+    <section class="hero revelar" aria-labelledby="titulo-hero">
+      <div class="limite hero-grid">
+        <div class="hero-texto">
+          <h1 id="titulo-hero">
+            Tecnologia com <span class="realce">propósito</span>, movimento com <span class="realce">significado</span>.
+          </h1>
+          <p class="subtitulo">
+            A Synthech cria experiências digitais que aproximam pessoas e empresas. Conheça nosso ecossistema para eventos: do app IALLA ao painel do produtor.
+          </p>
+          <div class="cta-grupo">
+            <a href="#produtos" class="btn primario">Ver produtos</a>
+            <a href="#quem-somos" class="btn fantasma">Sobre nós</a>
+          </div>
+
+          <ul class="pontos hero-pontos">
+            <li>Design centrado em pessoas</li>
+            <li>Integração mobile + web</li>
+            <li>Escalável e pronto para crescer</li>
+          </ul>
+        </div>
+
+        <div class="hero-imagem">
+          <!-- Espaço para mockup/imagem do app -->
+          <div class="mockup flutua-suave" aria-hidden="true">
+            <div class="telinha"><img src="images/GIFApp.gif"></div>
+          </div>
+        </div>
+      </div>
+      <div class="faixa-marquee" aria-hidden="true">
+        <div class="marquee">
+          <span>Eventos • Comunidade • Conexões • Inteligência • </span>
+          <span>Eventos • Comunidade • Conexões • Inteligência • </span>
+          <span>Eventos • Comunidade • Conexões • Inteligência • </span>
+        </div>
+      </div>
+    </section>
+
+    <!-- QUEM SOMOS -->
+    <section id="quem-somos" class="bloco revelar">
+      <div class="limite dupla">
+        <div class="texto">
+          <h2>Quem somos</h2>
+          <p>
+            A Synthech nasceu da vontade de transformar experiências reais com tecnologia simples e inteligente.
+            Unimos criatividade e dados para entregar ferramentas que connectam pessoas, marcas e lugares.
+          </p>
+          <p>
+            Nosso compromisso é construir soluções acessíveis, éticas e de alto impacto — do planejamento ao pós-evento.
+          </p>
+          <div class="mini-metas">
+            <div class="meta">
+              <strong>+UX</strong>
+              <span>Design centrado no usuário</span>
+            </div>
+            <div class="meta">
+              <strong>+IA</strong>
+              <span>Recomendações inteligentes</span>
+            </div>
+            <div class="meta">
+              <strong>+ROI</strong>
+              <span>Resultados mensuráveis</span>
+            </div>
+          </div>
+        </div>
+        <div class="mural">
+          <!-- Espaços para imagens -->
+          <figure class="quadro">
+            <img src="images/quem-somos.jpg" alt="Equipe trabalhando"/>
+          </figure>
+        </div>
+      </div>
+    </section>
+    <!-- MISSÃO / VISÃO / VALORES (inserido abaixo de Quem somos) -->
+    <section id="missao-visao-valores" class="bloco revelar">
+      <div class="limite">
+        <!-- MISSÃO -->
+        <section id="missao" class="subbloco">
+          <h2>Missão</h2>
+          <p class="description">
+            Simplificar a vida das pessoas por meio de tecnologias inteligentes que transformam a maneira como organizamos nosso tempo, eventos e rotinas.
+          </p>
+        </section>
+
+        <!-- VISÃO -->
+        <section id="visao" class="subbloco">
+          <h2>Visão</h2>
+          <p class="description">
+            Ser a plataforma essencial que transforma a maneira como as pessoas organizam suas vidas e seus eventos, unindo tecnologia inteligente com simplicidade e eficiência.
+          </p>
+        </section>
+
+        <!-- VALORES -->
+        <section id="valores" class="subbloco">
+          <h2>Valores</h2>
+          <div class="grid-valores">
+            <div class="valor">
+              <h3>Humanidade no centro</h3>
+              <p>A tecnologia existe para servir as pessoas. Toda decisão, design e desenvolvimento será centrado no bem-estar, privacidade e autonomia dos usuários.</p>
+            </div>
+            <div class="valor">
+              <h3>Inovação responsável</h3>
+              <p>Exploramos os limites da tecnologia com ética, responsabilidade social e ambiental.</p>
+            </div>
+            <div class="valor">
+              <h3>Adaptação ágil</h3>
+              <p>Em um mundo tecnológico em constante mudança, a flexibilidade e a capacidade de adaptação são essenciais. Estamos prontos para nos ajustar rapidamente às novas necessidades do mercado.</p>
+            </div>
+            <div class="valor">
+              <h3>Excelência em tudo o que fazemos</h3>
+              <p>Buscamos a perfeição em nossos processos, produtos e serviços. Cada detalhe é importante para garantir a mais alta qualidade e a satisfação total de nossos clientes e parceiros.</p>
+            </div>
+            <div class="valor">
+              <h3>Conectividade global</h3>
+              <p>Acreditamos no poder da tecnologia para conectar o mundo, quebrando barreiras geográficas e culturais. Nosso objetivo é criar soluções que tragam benefícios em uma escala global.</p>
+            </div>
+            <div class="valor">
+              <h3>Empatia e escuta ativa</h3>
+              <p>Colocamo-nos no lugar dos outros, compreendendo suas necessidades e desafios. A escuta ativa é parte de nossa cultura, permitindo soluções mais alinhadas às demandas do mercado.</p>
+            </div>
+          </div>
+        </section>
+      </div>
+    </section>
+
+    <!-- MASCOTE -->
+    <section id="mascote" class="bloco revelar">
+      <div class="limite dupla">
+        <div class="texto">
+          <h2>Mascote — Sync</h2>
+          <p class="intro">
+            O <strong>Sync</strong> é o nosso mascote: um <strong>macaco</strong> curioso, ágil e colaborativo — símbolo da
+            conexão entre pessoas, lugares e experiências. Ele representa a essência da Synthech: 
+            sincronizar o que importa no momento certo, com leveza e inteligência.
+          </p>
+          <ul class="pontos">
+            <li><strong>Curiosidade:</strong> explora oportunidades e descobre eventos incríveis.</li>
+            <li><strong>Agilidade:</strong> ajuda a organizar a rotina sem complicação.</li>
+            <li><strong>Conexão:</strong> cria pontes entre usuários, marcas e comunidades.</li>
+          </ul>
+        </div>
+        <figure class="quadro">
+          <!-- Coloque a imagem do mascote aqui -->
+          <img src="images/mascote.webp" alt="Mascote Sync, um macaco simpático" />
+          <figcaption>Sync, o macaco que sincroniza experiências.</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- PRODUTOS -->
+    <section id="produtos" class="bloco revelar">
+      <div class="limite">
+        <header class="cabecalho-bloco">
+          <h2>Nossos produtos</h2>
+          <p class="intro">Um ecossistema completo para o universo de eventos.</p>
+        </header>
+        <figure style="max-width: 960px; margin: 0 auto;padding: 50px 0;">
+          <video
+            controls
+            preload="metadata"
+            playsinline
+            poster="images/posterVideoIalla.jpg"
+            style="width:100%; border-radius:12px; display:block;"
+            autoplay
+            loop
+          >
+            <source src="images/videoIalla.mp4" type="video/mp4">
+            Seu navegador não suporta vídeo HTML5.
+          </video>
+        </figure>
+        <div class="cards-produtos">
+          <!-- App IALLA -->
+          <article class="card">
+            <div class="card-topo">
+              <h3>App IALLA</h3>
+              <p class="badge">Mobile</p>
+            </div>
+            <p class="resumo">
+              Descubra, participe e compartilhe eventos. Recomendações por interesse, interação em tempo real e comunidades vivas.
+            </p>
+            <ul class="pontos">
+              <li>Busca por localização e categoria</li>
+              <li>Favoritos e lembretes</li>
+              <li>Feed, stories e chat do evento</li>
+            </ul>
+            <div class="card-cta">
+              <a class="btn primario" href="#galeria">Ver telas</a>
+              <a class="btn link" href="#">Play Store</a>
+              <a class="btn link" href="#">App Store</a>
+            </div>
+          </article>
+
+          <!-- Dashboard Produtor -->
+          <article class="card">
+            <div class="card-topo">
+              <h3>Dashboard do Produtor</h3>
+              <p class="badge">Web</p>
+            </div>
+            <p class="resumo">
+              Painel para criar, vender e analisar eventos com métricas claras e automações.
+            </p>
+            <ul class="pontos">
+              <li>Criação de eventos completa</li>
+              <li>Ticketing e check-in</li>
+              <li>Relatórios e campanhas</li>
+            </ul>
+            <div class="card-cta">
+              <a class="btn primario" href="#contato">Quero testar</a>
+              <a class="btn link" href="#">Acessar plataforma</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- GALERIA -->
+    <section id="galeria" class="bloco revelar">
+    <div class="limite">
+      <header class="cabecalho-bloco">
+        <h2>Galeria</h2>
+      </header>
+
+      <div class="grade-galeria">
+        <figure class="tile site"><img src="images/IMAGEMSITE1.png" alt="Tela dashboard"/></figure>
+        <figure class="tile phone"><img src="images/IMAGEMAPP2.jpeg" alt="App no celular"/></figure>
+        <figure class="tile site"><img src="images/IMAGEMSITE2.jpeg" alt="Página web"/></figure>
+        <figure class="tile phone"><img src="images/IMAGEMAPP1.jpeg" alt="Tela vertical do app"/></figure>
+      </div>
+    </div>
+  </section>
+
+
+    <!-- DEPOIMENTOS -->
+    <section class="bloco revelar">
+      <div class="limite">
+        <header class="cabecalho-bloco">
+          <h2>O que estão dizendo</h2>
+          <p class="intro">Feedbacks que nos guiam na evolução contínua.</p>
+        </header>
+
+        <div class="carrossel" tabindex="0" aria-label="Depoimentos">
+          <article class="card depo">
+            <p>“A experiência do usuário é impecável. Em poucos cliques, meu evento estava no ar.”</p>
+            <span class="assinatura">— Produtora de eventos</span>
+          </article>
+          <article class="card depo">
+            <p>“O IALLA fez eu descobrir rolês que têm tudo a ver comigo.”</p>
+            <span class="assinatura">— Usuário do app</span>
+          </article>
+          <article class="card depo">
+            <p>“Acompanhar vendas e check-ins em tempo real mudou nosso jogo.”</p>
+            <span class="assinatura">— Organizador</span>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA FINAL -->
+    <section class="cta-final revelar">
+      <div class="limite cta-conteudo">
+        <h2>Pronto para dar vida aos seus eventos?</h2>
+        <p>Entre em contato e vamos juntos transformar o seu evento em algo inesquecível.</p>
+        <a href="#contato" class="btn primario grande">Começar agora</a>
+      </div>
+    </section>
+
+    <!-- CONTATO -->
+    <section id="contato" class="bloco revelar">
+      <div class="limite dupla">
+        <div class="texto">
+          <h2>Entre em contato</h2>
+          <p class="intro">Estamos prontos para ajudar você a dar o próximo passo.</p>
+
+          <ul class="contatos">
+            <li>📧 <a href="mailto:synthech.contato@gmail.com">synthech.contato@gmail.com</a></li>
+            <li><img src="images/instagram-icon.png" alt="instagram"> <a href="https://instagram.com/synthech_" target="_blank" rel="noopener">@synthech_</a></li>
+          </ul>
+        </div>
+
+        <form class="form" onsubmit="event.preventDefault(); alert('Mensagem enviada! (exemplo)');">
+          <label>
+            <span>Seu nome</span>
+            <input type="text" placeholder="Seu nome completo" required/>
+          </label>
+          <label>
+            <span>Seu e-mail</span>
+            <input type="email" placeholder="voce@email.com" required/>
+          </label>
+          <label>
+            <span>Mensagem</span>
+            <textarea rows="5" placeholder="Como podemos ajudar?" required></textarea>
+          </label>
+          <button class="btn primario" type="submit">Enviar</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="rodape">
+    <div class="limite">
+      <p>© 2025 SYNTHECH — Todos os direitos reservados</p>
+    </div>
+  </footer>
+
+  <!-- SCRIPTS: menu, rolagem suave, revelar on-scroll, elevação header, contadores -->
+  <script>
+    // Menu mobile
+    const btnMenu = document.getElementById('btnMenu');
+    const links = document.getElementById('menuLinks');
+    btnMenu.addEventListener('click', () => {
+      const aberto = links.classList.toggle('aberto');
+      btnMenu.setAttribute('aria-expanded', aberto ? 'true' : 'false');
+    });
+
+    // Rolagem suave
+    document.querySelectorAll('.links a').forEach(a => {
+      a.addEventListener('click', e => {
+        e.preventDefault();
+        const alvo = document.querySelector(a.getAttribute('href'));
+        if (!alvo) return;
+        links.classList.remove('aberto');
+        alvo.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      });
+    });
+
+    // Eleva/esconde header ao rolar
+    const header = document.querySelector('[data-elevate-on-scroll]');
+    let ultimoY = 0;
+    window.addEventListener('scroll', () => {
+      const y = window.scrollY || window.pageYOffset;
+      header.classList.toggle('elevado', y > 4);
+      header.classList.toggle('oculto', y > ultimoY && y > 120);
+      ultimoY = y;
+    });
+
+    // Revela elementos na rolagem
+    const observador = new IntersectionObserver((entradas) => {
+      entradas.forEach(ent => {
+        if (ent.isIntersecting) ent.target.classList.add('visivel');
+      });
+    }, { threshold: 0.14 });
+    document.querySelectorAll('.revelar').forEach(el => observador.observe(el));
+  </script>
+</body>
+</html>
