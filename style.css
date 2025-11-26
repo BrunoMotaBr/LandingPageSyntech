@@ -300,3 +300,191 @@ body{
   .revelar, .revelar.visivel{ transition: none; transform:none; opacity:1 }
   html{ scroll-behavior: auto }
 }
+
+/* ===========================================================
+   RESPONSIVO GERAL – AJUSTES EXTRAS PARA VÁRIOS DISPOSITIVOS
+   =========================================================== */
+
+/* Laptops médios / tablets em paisagem */
+@media (max-width: 1024px){
+  .limite{
+    padding-inline: 16px;
+  }
+
+  .hero{
+    padding-top: 40px;
+  }
+
+  .hero-grid{
+    gap: 32px;
+  }
+
+  .mockup{
+    width: 80%;
+    height: 540px;
+  }
+
+  .grade-galeria{
+    gap: 80px;
+  }
+}
+
+/* Tablets e telas entre ~900px e ~720px */
+@media (max-width: 900px){
+  .site-header .limite{
+    min-height: 64px;
+  }
+
+  .hero-grid{
+    grid-template-columns: 1fr;
+    align-items: center;
+  }
+
+  .hero-texto{
+    text-align: center;
+  }
+
+  .hero .cta-grupo{
+    justify-content: center;
+  }
+
+  .pontos{
+    justify-content: center;
+  }
+
+  .hero-imagem{
+    order: 2;
+  }
+
+  .mockup{
+    width: min(420px, 100%);
+    height: auto;
+    min-height: 340px;
+  }
+
+  .faixa-marquee{
+    margin-top: 18px;
+  }
+
+  .mural{
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .cards-produtos{
+    gap: 18px;
+  }
+
+  .bloco{
+    padding-block: 32px;
+  }
+}
+
+/* Celulares grandes (~720px pra baixo) */
+@media (max-width: 720px){
+  body{
+    font-size: 15px;
+  }
+
+  .limite{
+    padding-inline: 14px;
+  }
+
+  .site-header .limite{
+    gap: 10px;
+  }
+
+  .logo{
+    height: 38px;
+  }
+
+  .hero{
+    padding-top: 28px;
+    padding-bottom: 16px;
+  }
+
+  .hero-texto h1{
+    margin-bottom: 10px;
+  }
+
+  .hero-texto .subtitulo{
+    margin-bottom: 16px;
+  }
+
+  .mockup{
+    width: 100%;
+    min-height: 320px;
+  }
+
+  .faixa-marquee .marquee{
+    font-size: 0.9rem;
+    gap: 32px;
+  }
+
+  .mini-metas{
+    justify-content: flex-start;
+  }
+
+  .grade-galeria{
+    gap: 40px;
+  }
+
+  .card{
+    padding: 16px;
+  }
+
+  .form{
+    padding: 16px;
+  }
+
+  .btn.grande{
+    width: 100%;
+    justify-content: center;
+  }
+
+  #valores h2{
+    font-size: 24px;
+    margin-bottom: 24px;
+  }
+
+  .valor{
+    padding: 16px;
+  }
+}
+
+/* Celulares pequenos (~480px pra baixo) */
+@media (max-width: 480px){
+  .limite{
+    padding-inline: 12px;
+  }
+
+  .hero-texto h1{
+    font-size: 24px;
+  }
+
+  .hero .cta-grupo{
+    flex-direction: column;
+  }
+
+  .cards-produtos{
+    grid-template-columns: 1fr;
+  }
+
+  .carrossel{
+    grid-auto-columns: 85%;
+  }
+
+  .logo-caixa{
+    width: 140px;
+    height: 60px;
+  }
+
+  .cta-conteudo h2{
+    font-size: 22px;
+  }
+
+  .rodape{
+    font-size: 13px;
+    padding-block: 16px;
+  }
+}
